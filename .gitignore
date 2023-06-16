@@ -1,0 +1,7 @@
+./proyecto/node_modules
+./proyecto/package.json
+./proyecto/package-lock.json
+
+./navbarAnimado/node_modules
+./navbarAnimado/package.json
+./navbarAnimado/package-lock.json

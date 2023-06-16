@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Grid</title>
+  </head>
+  <body class="container mx-auto mt-5 text-center my-4">
+    <!-- column -->
+    <div class="grid grid-cols-3 gap-4">
+      <div class="bg-red-400">A</div>
+      <div class="bg-red-400">A</div>
+      <div class="bg-red-400">A</div>
+      <div class="bg-red-400">A</div>
+      <div class="bg-red-400">A</div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 my-4"
+    >
+      <div class="bg-green-400">B</div>
+      <div class="bg-green-400">B</div>
+      <div class="bg-green-400">B</div>
+      <div class="bg-green-400">B</div>
+      <div class="bg-green-400">B</div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 my-4">
+      <div class="bg-blue-400 col-span-2">D</div>
+      <div class="bg-blue-400">C</div>
+      <div class="bg-blue-400">C</div>
+      <div class="bg-blue-400 col-span-4">A</div>
+    </div>
+
+    <div class="grid grid-cols-12 gap-4">
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+      <div class="bg-orange-500">A</div>
+    </div>
+
+    <div class="grid grid-cols-12 gap-4 mt-2">
+      <div class="bg-orange-500 col-span-4">A</div>
+      <div class="bg-orange-500 col-span-4">A</div>
+      <div class="bg-orange-500 col-span-4">A</div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 mt-2">
+      <div class="bg-red-500 col-start-3">A</div>
+      <div class="bg-red-500 col-end-5">C</div>
+      <div class="bg-red-500">A</div>
+      <div class="bg-red-500">A</div>
+    </div>
+  </body>
+</html>
